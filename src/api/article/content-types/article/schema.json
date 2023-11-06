@@ -15,7 +15,7 @@
     "title": {
       "type": "string"
     },
-    "description": {
+    "fullDescription": {
       "type": "text",
       "maxLength": 80
     },
@@ -45,14 +45,20 @@
       "target": "api::category.category",
       "inversedBy": "articles"
     },
-    "blocks": {
-      "type": "dynamiczone",
-      "components": [
-        "shared.media",
-        "shared.quote",
-        "shared.rich-text",
-        "shared.slider"
-      ]
+    "articleOverview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.content"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.section"
+    },
+    "alternativeNames": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.alternate-name"
     }
   }
 }

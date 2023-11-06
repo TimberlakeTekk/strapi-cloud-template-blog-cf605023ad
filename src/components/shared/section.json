@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_sections",
+  "info": {
+    "displayName": "Section",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "sectionContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.content"
+    }
+  }
+}

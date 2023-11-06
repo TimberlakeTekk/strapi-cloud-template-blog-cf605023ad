@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_alternate_names",
+  "info": {
+    "displayName": "Alternate Name",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "altName": {
+      "type": "string"
+    }
+  }
+}
