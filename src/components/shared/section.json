@@ -10,7 +10,7 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.content"
-    }
+    },
     "sectionTime": {
       "type": "number"
     }
