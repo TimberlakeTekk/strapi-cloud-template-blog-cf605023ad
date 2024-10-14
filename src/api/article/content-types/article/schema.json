@@ -65,6 +65,12 @@
       "relation": "manyToMany",
       "target": "plugin::users-permissions.user",
       "mappedBy": "favorite_articles"
+    },
+    "related_sub_categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::sub-category.sub-category",
+      "inversedBy": "related_articles"
     }
   }
 }

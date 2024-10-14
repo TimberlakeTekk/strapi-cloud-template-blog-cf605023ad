@@ -26,6 +26,12 @@
     },
     "slug": {
       "type": "uid"
+    },
+    "related_articles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "mappedBy": "related_sub_categories"
     }
   }
 }
