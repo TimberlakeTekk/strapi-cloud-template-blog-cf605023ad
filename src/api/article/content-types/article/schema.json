@@ -59,6 +59,12 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.alternate-name"
+    },
+    "users_favorited": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "favorite_articles"
     }
   }
 }
