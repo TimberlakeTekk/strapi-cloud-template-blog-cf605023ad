@@ -66,6 +66,16 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.time-skip-section"
+    },
+    "video": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
