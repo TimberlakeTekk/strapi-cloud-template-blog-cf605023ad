@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_time_skips",
+  "info": {
+    "displayName": "TimeSkip",
+    "icon": "chartPie"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "seekInSeconds": {
+      "type": "decimal"
+    }
+  }
+}

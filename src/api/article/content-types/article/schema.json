@@ -45,16 +45,6 @@
       "target": "api::category.category",
       "inversedBy": "articles"
     },
-    "articleOverview": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.content"
-    },
-    "sections": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.section"
-    },
     "alternativeNames": {
       "type": "component",
       "repeatable": true,
@@ -71,6 +61,11 @@
       "relation": "manyToMany",
       "target": "api::sub-category.sub-category",
       "inversedBy": "related_articles"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.time-skip-section"
     }
   }
 }

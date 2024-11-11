@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_time_skip_sections",
+  "info": {
+    "displayName": "TimeSkipSection",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "timeSkips": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.time-skip"
+    }
+  }
+}
